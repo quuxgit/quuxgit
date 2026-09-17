@@ -1020,21 +1020,14 @@ section {
     margin-bottom: 16px;
     filter: grayscale(1);
     transition: filter 0.3s ease;
-}
-
-.showcase-item:hover .showcase-icon {
-    filter: grayscale(0);
-}
-
-.showcase-icon {
-    font-size: 48px;
-    margin-bottom: 16px;
-    filter: grayscale(1);
-    transition: filter 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--primary);
+}
+
+.showcase-item:hover .showcase-icon {
+    filter: grayscale(0);
 }
 
 .showcase-icon svg {
@@ -1264,6 +1257,11 @@ section {
     }
     
     .showcase-icon {
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+    .showcase-icon svg {
         font-size: 36px;
         margin-bottom: 12px;
     }
