@@ -1026,10 +1026,22 @@ section {
     filter: grayscale(0);
 }
 
-.showcase-item h4 {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
+.showcase-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    filter: grayscale(1);
+    transition: filter 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+
+.showcase-icon svg {
+    width: 48px;
+    height: 48px;
+    display: block;
+    stroke: currentColor;
 }
 
 .glass-footer {
